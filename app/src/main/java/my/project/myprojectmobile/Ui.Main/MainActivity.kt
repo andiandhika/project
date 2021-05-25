@@ -1,4 +1,4 @@
-package my.project.myapplication.main
+package my.project.myprojectmobile.Ui.Main
 
 import android.os.Bundle
 import android.view.Menu
@@ -9,9 +9,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import my.project.myprojectmobile.R
+import my.project.myprojectmobile.database.note.Note
 import kotlinx.android.synthetic.main.activity_main.*
-import my.project.myapplication.R
-import my.project.myapplication.db.note.Note
 
 
 class MainActivity : AppCompatActivity() {

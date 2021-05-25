@@ -1,10 +1,10 @@
-package my.project.myapplication.main
+package my.project.myprojectmobile.Ui.Main
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
-import my.project.myapplication.db.note.Note
-import my.project.myapplication.db.note.NoteRepository
+import my.project.myprojectmobile.database.note.Note
+import my.project.myprojectmobile.database.note.NoteRepository
 
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
 

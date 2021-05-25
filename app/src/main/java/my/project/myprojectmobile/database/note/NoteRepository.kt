@@ -1,8 +1,8 @@
-package my.project.myapplication.db.note
+package my.project.myprojectmobile.database.note
 
 import android.app.Application
 import androidx.lifecycle.LiveData
-import my.project.myapplication.db.AppDatabase
+import my.project.myprojectmobile.database.AppDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking

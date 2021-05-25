@@ -1,4 +1,4 @@
-package my.project.myapplication.db.note
+package my.project.myprojectmobile.database.note
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

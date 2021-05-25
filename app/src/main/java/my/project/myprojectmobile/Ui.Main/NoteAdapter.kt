@@ -1,12 +1,12 @@
-package my.project.myapplication.main
+package my.project.myprojectmobile.Ui.Main
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import my.project.myapplication.R
-import my.project.myapplication.db.note.Note
+import my.project.myprojectmobile.R
+import my.project.myprojectmobile.database.note.Note
 import kotlinx.android.synthetic.main.item_note.view.*
 
 class NoteAdapter(private val context: Context?, private val listener: (Note, Int) -> Unit) :

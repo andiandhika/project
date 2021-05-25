@@ -1,11 +1,11 @@
-package my.project.myapplication.db
+package my.project.myprojectmobile.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import my.project.myapplication.db.note.Note
-import my.project.myapplication.db.note.NoteDao
+import my.project.myprojectmobile.database.note.Note
+import my.project.myprojectmobile.database.note.NoteDao
 
 @Database(entities = [Note::class], exportSchema = false, version = 1)
 abstract class AppDatabase : RoomDatabase() {
